@@ -21,7 +21,7 @@ async def on_message(message):
 
     if 'С' in message.content and 'А' in message.content and 'Н' in message.content and 'Я' in message.content:
         print(message.author.mention)
-        if message.author.mention == '<@283512075974606849>' or if message.author.mention == '<@!291879094864576512>':
+        if message.author.mention == '<@283512075974606849>' or message.author.mention == '<@291879094864576512>':
             msg = 'ДаДаЯЯЯЯЯЯЯЯЯЯЯ'
             await message.channel.send(msg)
         else:
